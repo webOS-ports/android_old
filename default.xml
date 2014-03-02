@@ -35,6 +35,7 @@
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
 
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
+  <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
