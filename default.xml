@@ -154,4 +154,8 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="vendor/cm" name="webOS-ports/android_vendor_cm" revision="wop-10.1" />
+
+  <!-- target devices -->
+  <project name="CyanogenMod/android_device_lge_mako" path="device/lge/mako" remote="github" />
+  <project name="CyanogenMod/lge-kernel-mako" path="kernel/lge/mako" remote="github" />
 </manifest>
