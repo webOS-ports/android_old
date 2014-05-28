@@ -160,7 +160,7 @@
   <project name="CyanogenMod/lge-kernel-mako" path="kernel/lge/mako" remote="github" />
   <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" />
   <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" />
+  <project name="webOS-ports/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="wop-10.1" />
   <project name="CyanogenMod/android_device_asus_grouper" path="device/asus/grouper" remote="github" />
   <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" />
 
