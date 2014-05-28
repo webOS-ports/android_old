@@ -68,7 +68,7 @@
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" />
+  <project path="external/tinyalsa" name="webOS-ports/android_external_tinyalsa" revision="wop-10.1"/>
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
