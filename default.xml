@@ -158,4 +158,7 @@
   <!-- target devices -->
   <project name="CyanogenMod/android_device_lge_mako" path="device/lge/mako" remote="github" />
   <project name="CyanogenMod/lge-kernel-mako" path="kernel/lge/mako" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" />
+  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" />
 </manifest>
