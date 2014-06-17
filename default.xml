@@ -239,7 +239,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
 
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="webOS-ports/android_frameworks_av" groups="pdk" revision="wop-11.0" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
@@ -333,9 +333,26 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
-  <!-- tenderloin machine -->
+  <!-- target devices -->
+
+  <!-- mako -->
+  <project name="webOS-ports/android_device_lge_mako" path="device/lge/mako" remote="github" revision="wop-10.1" />
+  <project name="CyanogenMod/lge-kernel-mako" path="kernel/lge/mako" remote="github" />
+
+  <!-- maguro -->
+  <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" />
+
+  <!-- tuna -->
+  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
+  <project name="webOS-ports/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="wop-10.1" />
+
+  <!-- grouper -->
+  <project name="CyanogenMod/android_device_asus_grouper" path="device/asus/grouper" remote="github" />
+  <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" />
+
+  <!-- tenderloin -->
   <project path="kernel/hp/tenderloin" name="milaq/android_kernel_hp_tenderloin" />
   <project path="device/hp/tenderloin" name="milaq/android_device_hp_tenderloin" />
   <project path="vendor/hp/tenderloin" name="milaq/android_vendor_hp_tenderloin" />
-  <project path="external/backports-wireless" name="milaq/android_external_backports-wireless" />
+  <project path="external/backports-wireless" name="milaq/android_external_backports-wireless" revision="3.10-2" />
 </manifest>
