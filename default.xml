@@ -337,7 +337,7 @@
 
   <!-- mako -->
   <project name="webOS-ports/android_device_lge_mako" path="device/lge/mako" remote="github" revision="wop-10.1" />
-  <project name="CyanogenMod/lge-kernel-mako" path="kernel/lge/mako" remote="github" />
+  <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
 
   <!-- maguro -->
   <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" />
