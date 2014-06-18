@@ -355,4 +355,5 @@
   <project path="device/hp/tenderloin" name="milaq/android_device_hp_tenderloin" />
   <project path="vendor/hp/tenderloin" name="milaq/android_vendor_hp_tenderloin" />
   <project path="external/backports-wireless" name="milaq/android_external_backports-wireless" revision="3.10-2" />
+  <project path="hardware/atheros/wlan" name="milaq/android_hardware_atheros_wlan" revision="master" />
 </manifest>
