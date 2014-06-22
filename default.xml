@@ -336,7 +336,7 @@
   <!-- target devices -->
 
   <!-- mako -->
-  <project name="webOS-ports/android_device_lge_mako" path="device/lge/mako" remote="github" revision="wop-10.1" />
+  <project name="webOS-ports/android_device_lge_mako" path="device/lge/mako" remote="github" revision="wop-11.0" />
   <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
 
   <!-- maguro -->
@@ -344,7 +344,7 @@
 
   <!-- tuna -->
   <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
-  <project name="webOS-ports/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="wop-10.1" />
+  <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" />
 
   <!-- grouper -->
   <project name="CyanogenMod/android_device_asus_grouper" path="device/asus/grouper" remote="github" />
@@ -353,7 +353,6 @@
   <!-- tenderloin -->
   <project path="kernel/hp/tenderloin" name="milaq/android_kernel_hp_tenderloin" />
   <project path="device/hp/tenderloin" name="webOS-ports/android_device_hp_tenderloin" revision="wop-11.0" />
-  <project path="vendor/hp/tenderloin" name="milaq/android_vendor_hp_tenderloin" />
   <project path="external/backports-wireless" name="milaq/android_external_backports-wireless" revision="3.10-2" />
   <project path="hardware/atheros/wlan" name="milaq/android_hardware_atheros_wlan" revision="master" />
 </manifest>
