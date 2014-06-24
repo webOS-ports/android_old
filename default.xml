@@ -81,7 +81,7 @@
 
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <project path="frameworks/base" name="webOS-ports/android_frameworks_base" revision="wop-10.1"/>
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
+  <project path="frameworks/native" name="webOS-ports/android_frameworks_native" revision="wop-10.1" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
 
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
@@ -146,7 +146,6 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk,tools" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.7.2" name="platform/prebuilts/linaro-4.7.2" revision="refs/heads/master" />
 
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="webOS-ports/android_system_core" revision="wop-10.1"/>
@@ -159,11 +158,19 @@
   <project path="vendor/cm" name="webOS-ports/android_vendor_cm" revision="wop-10.1" />
 
   <!-- target devices -->
+
+  <!-- mako -->
   <project name="webOS-ports/android_device_lge_mako" path="device/lge/mako" remote="github" revision="wop-10.1" />
   <project name="CyanogenMod/lge-kernel-mako" path="kernel/lge/mako" remote="github" />
+
+  <!-- maguro -->
   <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" />
+
+  <!-- tuna -->
   <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
   <project name="webOS-ports/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="wop-10.1" />
+
+  <!-- grouper -->
   <project name="CyanogenMod/android_device_asus_grouper" path="device/asus/grouper" remote="github" />
   <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" />
 
