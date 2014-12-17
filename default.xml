@@ -355,4 +355,5 @@
   <project path="device/hp/tenderloin" name="webOS-ports/android_device_hp_tenderloin" revision="wop-11.0" />
   <project path="external/backports-wireless" name="milaq/android_external_backports-wireless" revision="3.10-2" />
   <project path="hardware/atheros/wlan" name="milaq/android_hardware_atheros_wlan" revision="master" />
+  <project path="external/memnotify" name="webOS-ports/memnotify-module" revision="master" />
 </manifest>
