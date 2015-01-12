@@ -351,7 +351,7 @@
   <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" />
 
   <!-- tenderloin -->
-  <project path="kernel/hp/tenderloin" name="shr-distribution/linux" revision="tenderloin/3.0/master-next" />
+  <project path="kernel/hp/tenderloin" name="shr-distribution/linux" revision="tenderloin/3.0/master" />
   <project path="device/hp/tenderloin" name="webOS-ports/android_device_hp_tenderloin" revision="wop-11.0" />
   <project path="external/backports-wireless" name="milaq/android_external_backports-wireless" revision="3.10-2" />
   <project path="hardware/atheros/wlan" name="milaq/android_hardware_atheros_wlan" revision="master" />
