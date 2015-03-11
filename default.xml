@@ -157,6 +157,8 @@
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="vendor/cm" name="webOS-ports/android_vendor_cm" revision="wop-10.1" />
 
+  <project path="hybris/droidmedia" name="sailfishos/droidmedia" revision="master"/>
+
   <!-- target devices -->
 
   <!-- mako -->
