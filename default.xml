@@ -333,7 +333,7 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
-  <project path="wop/droidmedia" name="sailfishos/droidmedia" revision="master"/>
+  <project path="hybris/droidmedia" name="sailfishos/droidmedia" revision="master"/>
 
   <!-- target devices -->
 
