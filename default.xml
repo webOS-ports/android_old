@@ -331,8 +331,7 @@
   <project path="system/vold" name="webOS-ports/android_system_vold" groups="pdk" revision="wop-11.0" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
-  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-
+  
   <project path="hybris/droidmedia" name="sailfishos/droidmedia" revision="master"/>
 
   <!-- target devices -->
