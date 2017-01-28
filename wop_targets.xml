@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- <remove-project name="mer-hybris/hybris-boot" /> -->
+  <remove-project name="mer-hybris/mer-kernel-check" />
+
+  <!-- Mako -->
+  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" revision="stable/cm-12.1-YOG4P" />
+  <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm"/>
+
+  <!-- Maguro -->
+  <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" revision="stable/cm-12.1-YOG7D" />
+  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" revision="stable/cm-12.1-YOG7D" />
+  <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" revision="stable/cm-12.1-YOG7D"/>
+
+  <!-- Hammerhead -->
+  <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" revision="stable/cm-12.1-YOG7D" />
+  <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" revision="stable/cm-12.1-YOG7D" />
+
+  <!-- system/core: do our own tweaks of init.rc -->
+  <remove-project name="mer-hybris/android_system_core" />
+  <project path="system/core" name="Tofee/android_system_core" groups="pdk" revision="wop-12.1"/>
+
+</manifest>
