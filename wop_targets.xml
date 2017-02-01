@@ -9,7 +9,7 @@
 
   <!-- Maguro -->
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" revision="stable/cm-12.1-YOG7D" />
-  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" revision="stable/cm-12.1-YOG7D" />
+  <project path="device/samsung/tuna" name="Tofee/android_device_samsung_tuna" revision="stable/cm-12.1-YOG7D" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" revision="stable/cm-12.1-YOG7D"/>
 
   <!-- Hammerhead -->
