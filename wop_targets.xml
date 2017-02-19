@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- <remove-project name="mer-hybris/hybris-boot" /> -->
+  <remove-project name="mer-hybris/hybris-boot" />
   <remove-project name="mer-hybris/mer-kernel-check" />
 
   <!-- Mako -->
@@ -19,5 +19,15 @@
   <!-- system/core: do our own tweaks of init.rc -->
   <remove-project name="mer-hybris/android_system_core" />
   <project path="system/core" name="Tofee/android_system_core" groups="pdk" revision="wop-12.1"/>
+
+  <!-- hybris/luneos-hal: use it with "make luneos-hybris-hal" -->
+  <project path="luneos/luneos-hal" name="Tofee/android_luneos_hal" revision="wop-12.1"/>
+  <project path="ubuntu/libhybris" name="libhybris/libhybris" revision="master"/>
+
+  <!-- just as a reminder, most of the patches come from Ubuntu's commits necessary for hybris/libcompat to work -->
+  <remote  name="phablet"
+           fetch="https://code-review.phablet.ubuntu.com/p/"
+           revision="refs/heads/phablet-5.1.1_r36"
+           review="code-review.phablet.ubuntu.com" />
 
 </manifest>
