@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="Halium/hybris-boot" />
+
+  <remote  name="webos-ports"
+           fetch="git://github.com/webos-ports/"
+           revision="wop-12.1"/>
+  <remote  name="Tofee"
+           fetch="git://github.com/Tofee/"
+           revision="wop-12.1"/>
+
+  <remote  name="Tofee-Halium"
+           fetch="git://github.com/Tofee/"
+           revision="halium-5.1"/>
+ 
+  <!-- Mako
+  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" revision="stable/cm-12.1-YOG4P" />
+  <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm"/>
+ -->
+  
+  <!-- system/core: do our own tweaks of init.rc
+  <remove-project name="mer-hybris/android_system_core" />
+  <project path="system/core" name="webOS-ports/android_system_core" groups="pdk" revision="wop-12.1"/>
+ -->
+  <!-- hybris/luneos-hal: use it with "make luneos-hybris-hal" 
+  <project path="luneos/luneos-hal" name="webOS-ports/android_luneos_hal" remote="halium" revision="wop-12.1"/>
+  -->
+
+  <!-- just as a reminder, most of the patches come from Ubuntu's commits necessary for hybris/libcompat to work
+  <remote  name="phablet"
+           fetch="https://code-review.phablet.ubuntu.com/p/"
+           revision="refs/heads/phablet-5.1.1_r36"
+           review="code-review.phablet.ubuntu.com" />
+ -->
+ 
+  <!-- Halium 5.1 Tenderloin -->
+  <remote  name="evervolv"
+           fetch="git://github.com/Evervolv/"
+           revision="lollipop-5.1"
+           review="review.evervolv.com"/>
+           
+  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="Tofee" revision="tenderloin/3.4/cm-12.1" />
+  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="Tofee-Halium" />
+  <project path="device/hp/tenderloin-common" name="android_device_hp_tenderloin-common" remote="Tofee-Halium" />
+  <project path="vendor/hp" name="android_vendor_hp" remote="Tofee-Halium"/>
+
+  <project path="hardware/atheros" name="android_hardware_atheros" remote="evervolv" />
+  <project path="hardware/qcom/audio-caf/msm8660" name="android_hardware_qcom_audio-caf" remote="evervolv" groups="qcom,qcom_audio" revision="lollipop-5.1-8960" />
+  <project path="hardware/qcom/display-caf/msm8660" name="android_hardware_qcom_display-caf" remote="Tofee" groups="qcom,qcom_display" revision="tenderloin/wop-12.1" />
+  <project path="hardware/qcom/media-caf/msm8660" name="android_hardware_qcom_media-caf" remote="evervolv" groups="qcom,qcom_media" revision="lollipop-5.1-8960" />
+  
+  <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
+  
+  <!-- Halium 5.1 Hammerhead -->
+  <project path="device/lge/hammerhead" name="Halium/android_device_lge_hammerhead" remote="halium" />
+  <project path="kernel/lge/hammerhead" name="Halium/android_kernel_lge_hammerhead" remote="halium" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="halium" revision="cm-12.1"/>
+  
+</manifest>
