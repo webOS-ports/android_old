@@ -50,7 +50,7 @@
   <project path="device/lge/hammerhead" name="Halium/android_device_lge_hammerhead" remote="halium" />
   <project path="kernel/lge/hammerhead" name="Halium/android_kernel_lge_hammerhead" remote="halium" />
   <!-- Halium 5.1 Mako -->
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="LineageOS" />
-  <project path="kernel/google/msm" name="android_kernel_google_msm" remote="LineageOS" />
+  <project path="device/lge/mako" name="ubports/android_device_lge_mako" remote="Github" revision="ubp-5.1" />
+  <project path="kernel/google/msm" name="ubports/android_kernel_google_msm" remote="Github" revision="ubp-5.1" />
 
 </manifest>
