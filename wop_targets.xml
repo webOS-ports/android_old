@@ -3,7 +3,7 @@
   <remove-project name="Halium/hybris-boot" />
 
   <remote  name="webos-ports"
-           fetch="git://github.com/webos-ports/"
+           fetch="git://github.com/webOS-ports/"
            revision="wop-12.1"/>
            
   <remote  name="Github"
@@ -12,19 +12,13 @@
   <remote  name="Tofee"
            fetch="git://github.com/Tofee/"
            revision="halium-5.1"/>
- 
-  <remote  name="LineageOS"
-           fetch="git://github.com/LineageOS/"
-           revision="stable/cm-12.1-YOG4P"/>
   
   <!-- system/core: do our own tweaks of init.rc
   <remove-project name="mer-hybris/android_system_core" />
   <project path="system/core" name="webOS-ports/android_system_core" groups="pdk" revision="wop-12.1"/>
  -->
-  <!-- hybris/luneos-hal: use it with "make luneos-hybris-hal" 
-  <project path="luneos/luneos-hal" name="webOS-ports/android_luneos_hal" remote="halium" revision="wop-12.1"/>
-  -->
-
+  <!-- hybris/luneos-hal: use it with "make luneos-halium" -->
+  <project path="luneos/luneos-hal" name="android_luneos_hal" remote="Tofee" revision="halium-5.1"/>
 
   <!-- Halium 5.1 Tenderloin -->
   <remote  name="evervolv"
