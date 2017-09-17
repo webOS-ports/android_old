@@ -9,16 +9,12 @@
   <remote  name="Github"
            fetch="git://github.com/"/>
 
-  <remote  name="Tofee"
-           fetch="git://github.com/Tofee/"
-           revision="halium-5.1"/>
-  
   <!-- system/core: do our own tweaks of init.rc
   <remove-project name="mer-hybris/android_system_core" />
   <project path="system/core" name="webOS-ports/android_system_core" groups="pdk" revision="wop-12.1"/>
  -->
   <!-- hybris/luneos-hal: use it with "make luneos-halium" -->
-  <project path="luneos/luneos-hal" name="android_luneos_hal" remote="Tofee" revision="halium-5.1"/>
+  <project path="luneos/luneos-hal" name="android_luneos_hal" remote="webos-ports" revision="halium-5.1"/>
 
   <!-- Halium 5.1 Tenderloin -->
   <remote  name="evervolv"
@@ -26,14 +22,14 @@
            revision="lollipop-5.1"
            review="review.evervolv.com"/>
            
-  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="Tofee" revision="tenderloin/3.4/cm-12.1"/>
-  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="Tofee" revision="halium-5.1"/>
-  <project path="device/hp/tenderloin-common" name="android_device_hp_tenderloin-common" remote="Tofee" revision="halium-5.1"/>
+  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="webos-ports" revision="tenderloin/3.4/cm-12.1"/>
+  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="webos-ports" revision="halium-5.1"/>
+  <project path="device/hp/tenderloin-common" name="android_device_hp_tenderloin-common" remote="webos-ports" revision="halium-5.1"/>
   <project path="vendor/hp" name="android_vendor_hp" remote="evervolv"/>
 
   <project path="hardware/atheros" name="android_hardware_atheros" remote="evervolv" />
   <project path="hardware/qcom/audio-caf/msm8660" name="android_hardware_qcom_audio-caf" remote="evervolv" groups="qcom,qcom_audio" revision="lollipop-5.1-8960" />
-  <project path="hardware/qcom/display-caf/msm8660" name="android_hardware_qcom_display-caf" remote="Tofee" groups="qcom,qcom_display" revision="tenderloin/wop-12.1" />
+  <project path="hardware/qcom/display-caf/msm8660" name="android_hardware_qcom_display-caf" remote="webos-ports" groups="qcom,qcom_display" revision="tenderloin/wop-12.1" />
   <project path="hardware/qcom/media-caf/msm8660" name="android_hardware_qcom_media-caf" remote="evervolv" groups="qcom,qcom_media" revision="lollipop-5.1-8960" />
   
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
