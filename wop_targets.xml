@@ -4,7 +4,7 @@
 
   <remote  name="webos-ports"
            fetch="git://github.com/webOS-ports/"
-           revision="wop-12.1"/>
+           revision="halium-5.1"/>
            
   <remote  name="Github"
            fetch="git://github.com/"/>
@@ -22,7 +22,7 @@
            revision="lollipop-5.1"
            review="review.evervolv.com"/>
            
-  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="webos-ports" revision="tenderloin/3.4/cm-12.1"/>
+  <project path="kernel/htc/msm8960" name="shr-distribution/linux" remote="Github" revision="tenderloin/3.4/cm-12.1"/>
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="webos-ports" revision="halium-5.1"/>
   <project path="device/hp/tenderloin-common" name="android_device_hp_tenderloin-common" remote="webos-ports" revision="halium-5.1"/>
   <project path="vendor/hp" name="android_vendor_hp" remote="evervolv"/>
