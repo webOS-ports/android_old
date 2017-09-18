@@ -13,7 +13,7 @@
   <remove-project name="mer-hybris/android_system_core" />
   <project path="system/core" name="webOS-ports/android_system_core" groups="pdk" revision="wop-12.1"/>
  -->
-  <!-- hybris/luneos-hal: use it with "make luneos-halium" -->
+  <!-- luneos/luneos-hal: contain patches to apply before starting the build. -->
   <project path="luneos/luneos-hal" name="android_luneos_hal" remote="webos-ports" revision="halium-5.1"/>
 
   <!-- Halium 5.1 Tenderloin -->
