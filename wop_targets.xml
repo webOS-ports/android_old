@@ -29,7 +29,7 @@
 
   <project path="hardware/atheros" name="android_hardware_atheros" remote="evervolv" />
   <project path="hardware/qcom/audio-caf/msm8660" name="android_hardware_qcom_audio-caf" remote="evervolv" groups="qcom,qcom_audio" revision="lollipop-5.1-8960" />
-  <project path="hardware/qcom/display-caf/msm8660" name="android_hardware_qcom_display-caf" remote="webos-ports" groups="qcom,qcom_display" revision="tenderloin/halium-5.1" />
+  <project path="hardware/qcom/display-caf/msm8660" name="android_hardware_qcom_display-caf" remote="webos-ports" groups="qcom,qcom_display" revision="tenderloin/halium-5.1-new" />
   <project path="hardware/qcom/media-caf/msm8660" name="android_hardware_qcom_media-caf" remote="evervolv" groups="qcom,qcom_media" revision="lollipop-5.1-8960" />
   
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
