@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="Halium/hybris-boot" />
+
+  <remote  name="webos-ports"
+           fetch="git://github.com/webOS-ports/"
+           revision="halium-7.1"/>
+           
+  <remote  name="Github"
+           fetch="git://github.com/"/>
+
+  <!-- system/core: do our own tweaks of init.rc
+  <remove-project name="mer-hybris/android_system_core" />
+  <project path="system/core" name="webOS-ports/android_system_core" groups="pdk" revision="wop-12.1"/>
+ -->
+  <!-- luneos/luneos-hal: contain patches to apply before starting the build. -->
+  <project path="luneos/luneos-hal" name="android_luneos_hal" remote="webos-ports" revision="halium-7.1"/>
+  
+  <!-- TheMuppets vendor for Xiaomi -->
+  <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="Github" revision="cm-14.1"/>
+  <!-- Halium 7.1 Xiaomi Mido -->
+  <project path="device/xiaomi/mido" name="piggz/android_device_xiaomi_mido" remote="Github" revision="pgz-14.1"/>
+  <project path="kernel/xiaomi/msm8953" name="piggz/android_kernel_xiaomi_msm8953" remote="Github" revision="pgz-14.1-eb8"/>
+  
+</manifest>
