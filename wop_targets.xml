@@ -18,8 +18,15 @@
   
   <!-- TheMuppets vendor for Xiaomi -->
   <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="Github" revision="cm-14.1"/>
+  <!-- TheMuppets vendor for OnePlus -->
+  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="Github" revision="cm-14.1"/>
+
   <!-- Halium 7.1 Xiaomi Mido -->
   <project path="device/xiaomi/mido" name="piggz/android_device_xiaomi_mido" remote="Github" revision="pgz-14.1"/>
   <project path="kernel/xiaomi/msm8953" name="piggz/android_kernel_xiaomi_msm8953" remote="Github" revision="pgz-14.1-eb8"/>
-  
+
+ <!-- Halium 7.1 OnePlus Onyx -->
+  <project path="device/oneplus/onyx" name="lineageos/android_device_oneplus_onyx" remote="Github" revision="cm-14.1"/>
+  <project path="kernel/oneplus/onyx" name="lineageos/android_kernel_oneplus_onyx" remote="Github" revision="cm-14.1"/>
+   
 </manifest>
