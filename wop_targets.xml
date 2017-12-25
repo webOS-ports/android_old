@@ -21,7 +21,7 @@
   <!-- TheMuppets vendor for OnePlus -->
   <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="Github" revision="cm-14.1"/>
   <!-- TheMuppets vendor for Motorola -->
-  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_motorola" remote="Github" revision="cm-14.1"/>
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="Github" revision="cm-14.1"/>
 
   <!-- Halium 7.1 Xiaomi Mido -->
   <project path="device/xiaomi/mido" name="piggz/android_device_xiaomi_mido" remote="Github" revision="pgz-14.1"/>
