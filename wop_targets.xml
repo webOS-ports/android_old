@@ -32,7 +32,7 @@
   <project path="kernel/oneplus/onyx" name="lineageos/android_kernel_oneplus_onyx" remote="Github" revision="cm-14.1"/>
 
   <!-- Halium 7.1 Motorola G4 -->
-  <project path="device/motorola/athene" name="lineageos/android_device_oneplus_onyx" remote="Github" revision="cm-14.1"/>
+  <project path="device/motorola/athene" name="lineageos/android_device_motorola_athene" remote="Github" revision="cm-14.1"/>
   <project path="kernel/motorola/msm8952" name="lineageos/android_kernel_motorola_msm8952" remote="Github" revision="cm-14.1"/>
   
   <!-- Seeing that OnePlus is a daughter company of Oppo, it seems it uses some of it's technical bits, so we include these there too -->
