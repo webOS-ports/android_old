@@ -219,6 +219,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="los" />
   <project path="system/core" name="Halium/android_system_core" groups="pdk" remote="hal" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="los" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
